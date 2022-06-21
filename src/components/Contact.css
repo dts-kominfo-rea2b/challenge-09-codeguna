@@ -1,0 +1,53 @@
+.contact-box{
+    margin-top: 50px;
+    margin: auto;
+    width: 100%;
+}
+
+.contact-list{
+    margin: auto;
+    align-items: center;
+    background: #f4deb3;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.contact-info{
+    flex: 3 1;
+}
+.contact-avatar {
+    border-radius: 50%;
+    flex: 1 1;
+    height: 120px;
+    object-fit: cover;
+    width: 120px;
+}
+
+.contact-name {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact-email {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact-phone {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
